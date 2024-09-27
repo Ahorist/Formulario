@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1 class="title" id="title">FormularioJuego</h1>
+        <p id="description">La finalidad de este formulario es conocer un poco de la gente que disfruta de nuestro juego, de esta forma tener mas en cuentra nuestro publico en general</p>
+    </div>
+
+    <form id="survey-form">
+    <div class="contenido">
+
+
+        <label for="name" id="name-label">Nombre</label>
+        <input type="text" id="name" name="name" required placeholder="Nombre"><br><br>
+
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Email"><br><br>
+
+        <label for="edad" id="number-label">Edad</label>
+        <input type="number" id="number" name="edad" required min="1" max="100" placeholder="Edad"><br><br>
+
+    </div>
+
+
+    <label for="dropdown">Te consideras?:</label>
+    <select id="dropdown" name="dropdown">
+        <option value="option1">Introvertido</option>
+        <option value="option2">Extrovertido</option>
+    </select>
+
+
+        <fieldset class="selecciona">
+            <legend>Selecciona tus intereses:</legend>
+            <label><input type="checkbox" name="checkbox-group" value="interest1"> Deportes</label>
+            <label><input type="checkbox" name="checkbox-group" value="interest2"> Videojuegos</label>
+            <label><input type="checkbox" name="checkbox-group" value="interest3"> Correr</label>
+            <label><input type="checkbox" name="checkbox-group" value="interest4"> Ver series</label>
+            <label><input type="checkbox" name="checkbox-group" value="interest5"> Pasear</label>
+        </fieldset>
+    </div>
+
+
+    <fieldset class="selecciona">
+        <legend>Selecciona una opción:</legend>
+        <label><input type="radio" name="radio-group" value="radio1"> Estudias</label>
+        <label><input type="radio" name="radio-group" value="radio2"> Trabajas</label>
+        <label><input type="radio" name="radio-group" value="radio3"> Ambas</label>
+    </fieldset>
+
+
+    <div class="cuentanos">
+        <textarea class="deti" rows="5" cols="30" placeholder="Cuentanos algo de ti"></textarea>
+        <textarea class="cambios" rows="5" cols="30" placeholder="Que te gustaria ver en nuestro juego mas adelante"></textarea>
+    </div>
+    <button type="submit" id="submit" value="enviar">Enviar</button>
+    </form>
+</body>
+</html>

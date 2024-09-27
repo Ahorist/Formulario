@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 191, 116);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.titulo{
+    margin: auto;
+    background-color: #fcec60;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.selecciona{
+    margin-top: 20px;
+}
+
+#survey-form {
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #1b1a1a;
+}
+
+p {
+    text-align: center;
+    color: #1b1919;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.deti, .cambios{
+    margin-top: 15px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
